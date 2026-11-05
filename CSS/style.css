@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "banner-h2";
+    src: url(../Fonts/Rufina-Bold.ttf);
+}
+
+.container{
+    max-width: 1377px;
+    margin: 0 auto;
+}
+
+section{
+    background-color: #C2EFD4;
+}
+
+.tittle{
+    text-align: center;
+}
+
+.tittle h1{
+    font-size: 64px;
+    font-family: Roboto Slab;
+    font-weight: 700;
+    color: #224F34;
+    margin-bottom: 37px;
+}
+
+.tittle p{
+    font-size: 22px;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: #224F34;
+    margin-bottom:80px ;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 54px;
+    position: relative;
+    z-index: 1;
+}
+
+.logo h2{
+    color: #224F34;
+    font-size: 40px;
+    font-family: "Elephant";
+    font-weight: normal;
+}
+
+nav{
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+
+.a_nav{
+    display: flex;
+    gap:30px;
+}
+
+nav a{
+    color: #224F34;
+    font-size: 22px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.icons_login_header{
+    display: flex;
+    align-items: center;
+    gap: 57px;
+}
+
+.icons_login_header .login{
+    padding: 11px 44px;
+    border: 2px solid #224F34;
+}
+
+.basket{
+    margin-top: 10px;
+}
+
+.banner{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 128px 0 166px 0;
+   margin-bottom: 114px;
+}
+
+.banner_text{
+    width: 664px;
+}
+
+.banner_text h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 86px;
+    font-weight: bold;
+    color: #224F34;
+}
+
+.banner_text h2 span{
+    font-family: banner-h2;
+    font-size: 86px;
+    font-weight: bold;
+    color: #224F34;
+}
+
+.banner_text p {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    color: #224F34;
+    line-height: 1.5;
+    padding: 27px 0 41px 0;
+}
+
+.banner_text a{
+    background-color: #224F34;
+    padding:22px 59px;
+    color: white;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    display: inline-block;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.29));
+}
+
+.grid_crug{
+    display: grid;
+    grid-template-columns: repeat(4,max-content);
+    grid-template-rows: repeat(4,max-content);
+    gap: 30px;
+    row-gap: 30px;
+    position: absolute;
+    z-index: 1;
+    bottom: 83px;
+    left: 24px;
+}
+
+#grid_crug2{
+    position: absolute;
+    z-index: 1;
+    top: 155px;
+    left: 439px;
+}
+
+.crug{
+    width: 8px;
+    height: 8px;
+    background-color: #224F34;
+    border-radius: 100%;
+    gap: 30px;
+    row-gap: 30px;
+}
+
+.banner_img{
+    position: relative;
+}
+
+.tittle{
+    text-align: center;
+}
+
+.catalog_popularity{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 43px;
+    margin-bottom: 185px;
+}
+
+.catalog_card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 195px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+#card_catalog{
+    margin-bottom: 82px;
+}
+
+.card p{
+    margin-top: 51px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Montserrat;
+    color:#373737 ;
+}
+
+.price_ocenka{
+    display: flex;
+    margin-top: 11px;
+}
+
+.price_ocenka h2{
+    font-size: 22px;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: #454545;
+
+    border-right: 1px solid #000000;
+}
+
+.price_ocenka h2, .ocenka{
+    padding: 3px 48px;
+}
+
+.ocenka{
+    display: flex;
+    gap: 9px;
+}
+
+.ocenka h5{
+    font-size: 22px;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: #454545;
+}
+
+.ocenka img{
+    width: 24px;
+    height: 24px;
+}
+
+.catalog_popularity a{
+    padding:16px 55px;
+    border: 2px solid #224F34;
+    border-radius: 3px;
+    display: block;
+    font-size: 22px;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: #224F34;
+}
+
+#tittle_catalog{
+    margin-bottom: 70px;
+}
+
+.nav_catalog{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    margin-bottom: 80px;
+}
+
+.nav_catalog a{
+    color: #454545;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 3px;
+    border-bottom: 1px solid white;
+}
+
+.nav_catalog a:hover{
+    color: #224F34;
+    border-bottom: 2px solid #224F34;
+}
+
+.nav_catalog a.active{
+    border-bottom: 2px solid #224F34;
+}
+
+.img_cat{
+    background-color:  #EAEBF0;
+}
+
+.banner_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C2EFD4;
+}
